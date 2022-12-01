@@ -42,7 +42,7 @@ print("worker"+str(w)+" Client")
 con=0
 
 #fill path to desired directory to create folder
-path_to_folder="C:/Users/Mithul/Desktop/vsc/sem5/BD/Final/"
+path_to_folder=""
 folder_name="worker"+str(w)
 
 path = os.path.join(path_to_folder, folder_name)
