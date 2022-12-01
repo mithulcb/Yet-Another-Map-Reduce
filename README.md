@@ -43,3 +43,34 @@ we send these inputs with operation as map-reduce to the master and master will 
 
 Kills all the worker nodes , client node , master node
 
+<h1>STRUCTURE</h1>
+![image](https://user-images.githubusercontent.com/78469903/205070963-8c3a8f29-4f4c-4416-89b3-198198ccc2e4.png)
+
+<h3>WORKFLOW OF WRITE</h3>
+![image](https://user-images.githubusercontent.com/78469903/205071214-30b65862-092b-4ace-9cfd-a9ebac5d4c20.png)
+
+
+
+<h3>WORKFLOW OF READ</h3>
+![image](https://user-images.githubusercontent.com/78469903/205071296-2aa96bc7-175b-4a11-be58-375a64b3305c.png)
+
+
+
+<h3>WORKFLOW OF MAP-REDUCE</h3>
+<h4>MAP PHASE</h4>
+![image](https://user-images.githubusercontent.com/78469903/205071399-8927cd58-48df-454b-bab8-84cab9414a5e.png)
+![image](https://user-images.githubusercontent.com/78469903/205071633-4f012d38-fb25-4ef4-a1c4-74347c585a29.png)
+
+
+<h4>SHUFFLE PHASE</h4>
+![image](https://user-images.githubusercontent.com/78469903/205071677-2c2f9fc9-b440-4cee-b8b7-5b04eaa81756.png)
+
+
+<h4>REDUCER PHASE</h4>
+![image](https://user-images.githubusercontent.com/78469903/205071847-aca61869-9227-4602-a78a-3f549f91f539.png)
+![image](https://user-images.githubusercontent.com/78469903/205071917-3bb39a4b-e3ca-4f41-9224-2fbd8293f478.png)
+![image](https://user-images.githubusercontent.com/78469903/205071987-c835d48f-845f-4a7e-aa92-2981c009f603.png)
+
+
+
+
